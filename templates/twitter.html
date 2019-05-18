@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block css %} {% endblock css %}
+
+{% block content %}
+
+<div class="container-fluid">
+        <h1 style="text-decoration: underline;" class="mt-4">Twitter</h1><br>
+        <h4 style="font-weight: normal;">- You can download the tweets involved with a public account.</h4>
+        <h4 style="font-weight: normal;">- The information is downloaded as a large JSON data file.</h4>
+        <br><div class="alert alert-danger" role="alert">
+            <strong>Warning!</strong> Depending on how many tweets a certain user has, the downloading process will take different amounts of time.
+        </div>
+        <br><form autocomplete="off" action="{{ url_for('twitter') }}" method="POST">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                </div>
+                <input required name="account_name" placeholder="Account name that you want to investigate..." type="text" class="form-control">
+            </div><br>
+            <input type="submit" class="btn btn-primary"></input>
+        </form>
+    </div>
+
+{% endblock content %}
+
+{% block js %} {% endblock js %}

@@ -1,33 +1,15 @@
 {
-    "title": "Simple Sidebar",
-    "name": "startbootstrap-simple-sidebar",
+    "title": "Social Download",
+    "name": "social-download",
     "version": "5.1.0",
-    "scripts": {
-        "start": "gulp watch"
-    },
-    "description": "A simple sidbar navigation HTMl template built with Bootstrap",
+    "description": "A web application for downloading social media profiles.",
     "keywords": [
         "css",
-        "sass",
         "html",
-        "responsive",
-        "theme",
-        "template"
+        "flask"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/simple-sidebar",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/issues",
-        "email": "feedback@startbootstrap.com"
-    },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-simple-sidebar.git"
-    },
+    "author": "Jacob C.",
     "dependencies": {
         "bootstrap": "4.3.1",
         "jquery": "3.4.1"
