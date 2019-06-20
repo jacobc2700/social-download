@@ -10,6 +10,3 @@ Download the data involved with someone who has social media.
 
 ### To Do:
 1. Download multiple accounts at once (from a text file).
-
-### Author:
-Jacob C.
