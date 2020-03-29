@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,12 +14,12 @@
 
   <!-- Custom Styles -->
   <link href="static/css/simple-sidebar.css" rel="stylesheet">
-
   <link href="static/css/layout_style.css" rel="stylesheet">
 
   {% block css %} {% endblock %}
 
 </head>
+
 <body>
   <div class="d-flex" id="wrapper">
 
@@ -31,7 +32,6 @@
         <a href="{{ url_for('vsco') }}" class="list-group-item list-group-item-action bg-light">VSCO</a>
       </div>
     </div>
-    <!-- /#sidebar-wrapper -->
 
     <!-- Page Content -->
     <div id="page-content-wrapper">
@@ -39,14 +39,16 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="https://github.com/jacobc2700?tab=repositories">GitHub <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="https://github.com/jacobc2700?tab=repositories">GitHub <span
+                  class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
@@ -56,18 +58,15 @@
       {% block content %} {% endblock %}
 
     </div>
-    <!-- /#page-content-wrapper -->
-
   </div>
-  <!-- /#wrapper -->
 
-  <!-- Bootstrap core JavaScript -->
+  <!-- Bootstrap Core JavaScript -->
   <script src="static/vendor/jquery/jquery.min.js"></script>
   <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Menu Toggle Script -->
   <script>
-    $("#menu-toggle").click(function(e) {
+    $("#menu-toggle").click(function (e) {
       e.preventDefault();
       $("#wrapper").toggleClass("toggled");
     });
@@ -77,4 +76,5 @@
   {% block js %} {% endblock %}
 
 </body>
+
 </html>

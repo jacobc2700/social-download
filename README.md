@@ -8,5 +8,10 @@ Download the data involved with someone who has social media.
 3. Run `pip install -r requirements.txt` in the command line.
 4. Open `localhost:5000/home` in the browser.
 
-### Complete:
-1. Download multiple accounts at once (from a text file).
+### Technologies:
+- Flask
+- Python
+- Jinja
+- Instaloader
+- VSCO Scraper
+- Twitter Scraper
